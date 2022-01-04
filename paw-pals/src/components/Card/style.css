@@ -1,0 +1,14 @@
+.inner-user-card {
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.user-card {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px;
+  width: 800px;
+  height: 1100px;
+  background-color: rgb(235, 154, 33);
+}
