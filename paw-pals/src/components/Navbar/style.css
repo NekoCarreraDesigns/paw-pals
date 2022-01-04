@@ -1,14 +1,35 @@
-.navbar-link,
-.navbar-link-1,
-.navbar-link-2,
-.navbar-link-3,
-.navbar-link-4 {
-  color: white;
-  height: 80px;
-  margin-bottom: 30px;
-}
-
 .navbar {
   margin-right: 1200px;
   height: 80px;
+}
+
+.fas {
+  font-size: 50px;
+  width: 50px;
+  color: white;
+  padding: 10px;
+}
+
+.fas:hover {
+  color: rgb(235, 154, 33);
+}
+
+.fa-dog {
+  color: brown;
+}
+
+.fa-home {
+  color: green;
+}
+
+.fa-cloud-sun {
+  color: gold;
+}
+
+.fa-user {
+  color: rgb(11, 234, 3);
+}
+
+.fa-search {
+  color: rgb(0, 12, 15);
 }
