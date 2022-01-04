@@ -21,3 +21,15 @@
   height: 60px;
   margin-right: 0;
 }
+
+.intro-paragraph {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.disclaimer-paragraph {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
