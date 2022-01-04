@@ -1,0 +1,23 @@
+.page-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: 60px;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+}
+
+.dog-left {
+  transform: scaleX(-1);
+  height: 60px;
+  margin-left: 0;
+}
+
+.dog-right {
+  height: 60px;
+  margin-right: 0;
+}
