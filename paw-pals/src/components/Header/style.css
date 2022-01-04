@@ -33,3 +33,16 @@
   letter-spacing: 2px;
   font-weight: 200;
 }
+
+.start-button:hover {
+  background-color: rgb(235, 154, 33);
+}
+
+.start-button {
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0;
+  color: white;
+  background-color: blue;
+}

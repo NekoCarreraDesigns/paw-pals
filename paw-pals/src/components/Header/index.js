@@ -27,6 +27,9 @@ function Header() {
         you to report abuses, and bad behavior off site to the local authorities
         as well as our safety team. Remember to have fun and stay safe!
       </p>
+      <button className='start-button' href='/profile'>
+        Get Started!
+      </button>
     </div>
   );
 }
