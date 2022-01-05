@@ -14,12 +14,12 @@
 .dog-left {
   transform: scaleX(-1);
   height: 60px;
-  margin-left: 0;
+  margin: 12px;
 }
 
 .dog-right {
   height: 60px;
-  margin-right: 0;
+  margin: 12px;
 }
 
 .intro-paragraph {
