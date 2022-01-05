@@ -1,6 +1,7 @@
 .navbar {
   margin-right: 1200px;
   height: 80px;
+  display: flex;
 }
 
 .fas {

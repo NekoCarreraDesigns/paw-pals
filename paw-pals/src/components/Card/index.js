@@ -5,7 +5,7 @@ function Card() {
   return (
     <div className='user-card'>
       <div className='inner-user-card'>
-        <img alt='dog' src='IMG_1118.jpg'></img>
+        <img className='user-dog' alt='dog' src='IMG_1118.jpg'></img>
         <h1>
           <em>Name: </em> Oliver
         </h1>
@@ -21,6 +21,13 @@ function Card() {
         <h1>
           <em>Personality: </em> Attention whore, protective, very territorial
         </h1>
+        <button className='dislike-button'>
+          <i class='fas fa-times-circle'></i>
+        </button>
+        {"      "}
+        <button className='like-button'>
+          <i class='fas fa-heart'></i>
+        </button>
       </div>
     </div>
   );
