@@ -2,6 +2,7 @@ import Header from "./components/Header/index";
 import "./App.css";
 import Navbar from "./components/Navbar/index";
 import Card from "./components/Card/index";
+import Footer from "./components/Footer/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route path='/' element={<Header />}></Route>
           <Route path='/search' element={<Card />}></Route>
         </Routes>
+        <Footer></Footer>
       </div>
     </BrowserRouter>
   );
