@@ -1,0 +1,27 @@
+.user-search,
+.dogs-search {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.user-search {
+  margin: 40px;
+}
+
+.dogs-search {
+  margin-right: 2px;
+}
+
+.search-button {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 9px;
+  margin: 2px;
+  color: white;
+  background-color: blue;
+}
+
+.search-button:hover {
+  background-color: rgb(235, 154, 33);
+}

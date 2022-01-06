@@ -22,11 +22,11 @@ function Card() {
           <em>Personality: </em> Attention whore, protective, very territorial
         </h1>
         <button className='dislike-button'>
-          <i class='fas fa-times-circle'></i>
+          <i className='fas fa-times-circle'></i>
         </button>
         {"      "}
         <button className='like-button'>
-          <i class='fas fa-heart'></i>
+          <i className='fas fa-heart'></i>
         </button>
       </div>
     </div>

@@ -4,6 +4,10 @@
   display: flex;
 }
 
+:focus {
+  text-decoration: underline;
+}
+
 .fas {
   font-size: 50px;
   width: 50px;
@@ -33,4 +37,8 @@
 
 .fa-search {
   color: rgb(0, 12, 15);
+}
+
+.fa-cog {
+  color: rgb(2, 200, 200);
 }
