@@ -50,6 +50,7 @@ function Search() {
         <input className='age-checkbox' type='checkbox' /> 3-6
         <input className='age-checkbox' type='checkbox' /> 6-9
         <input className='age-checkbox' type='checkbox' /> 9-12
+        <input className='age-checkbox' type='checkbox' /> 12+
       </div>
     </div>
   );
