@@ -1,3 +1,4 @@
+/* User search inputs */
 .user-search,
 .dogs-search {
   height: 40px;
@@ -12,14 +13,46 @@
 .dogs-search {
   margin-right: 2px;
 }
-
-.search-button {
+/* Search Button */
+.search-button,
+.mixed-search-button {
   border-radius: 5px;
   font-size: 20px;
   padding: 9px;
   margin: 2px;
   color: white;
   background-color: blue;
+}
+
+/* Filter Options */
+
+.filter-header {
+  font-family: "Patrick Hand", cursive;
+  text-decoration: underline;
+  font-size: 60px;
+  color: rgb(235, 154, 33);
+  letter-spacing: 2px;
+}
+.breed-filter,
+.mix-breed,
+.dog-age {
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 3px;
+  font-size: 30px;
+  color: rgb(235, 154, 33);
+}
+
+.breed-checkbox,
+.age-checkbox {
+  padding: 10px;
+  margin: 5px;
+}
+
+.mixed-input {
+  width: 400px;
+  height: 40px;
+  margin-right: 2px;
+  border-radius: 10px;
 }
 
 .search-button:hover {
