@@ -20,7 +20,7 @@ function Navbar() {
       </a>{" "}
       <a className='navbar-link-4' href='/dog-parks'>
         {"   "}
-        <i className='fas fa-cloud-sun'></i>
+        <i class='fas fa-tree'></i>
       </a>
       {"  "}
       <a className='navbar-link-5' href='/profile'>

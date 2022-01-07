@@ -27,8 +27,8 @@
   color: green;
 }
 
-.fa-cloud-sun {
-  color: gold;
+.fa-tree {
+  color: rgb(255, 215, 0);
 }
 
 .fa-user {
@@ -37,8 +37,4 @@
 
 .fa-search {
   color: rgb(255, 255, 255);
-}
-
-.fa-cog {
-  color: rgb(2, 200, 200);
 }
