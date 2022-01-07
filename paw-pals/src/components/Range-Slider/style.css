@@ -1,0 +1,9 @@
+.value {
+  color: rgb(235, 153, 11);
+  font-size: 30px;
+}
+
+.slider {
+  width: 400px;
+  margin-left: 580px;
+}

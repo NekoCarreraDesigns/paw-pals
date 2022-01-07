@@ -35,7 +35,8 @@
 }
 .breed-filter,
 .mix-breed,
-.dog-age {
+.dog-age,
+.distance-filter {
   font-family: "Patrick Hand", cursive;
   letter-spacing: 3px;
   font-size: 30px;

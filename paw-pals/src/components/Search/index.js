@@ -1,4 +1,5 @@
 import React from "react";
+import RangeSlider from "../Range-Slider/index";
 import "./style.css";
 
 function Search() {
@@ -51,6 +52,10 @@ function Search() {
         <input className='age-checkbox' type='checkbox' /> 6-9
         <input className='age-checkbox' type='checkbox' /> 9-12
         <input className='age-checkbox' type='checkbox' /> 12+
+      </div>
+      <div>
+        <h1 className='distance-filter'>Search By Distance</h1>
+        <RangeSlider />
       </div>
     </div>
   );
