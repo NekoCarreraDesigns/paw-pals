@@ -13,8 +13,8 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route path='/' element={<Header />}></Route>
-          <Route path='/search' element={<Card />}></Route>
-          <Route path='/settings' element={<Search />}></Route>
+          <Route path='/cards' element={<Card />}></Route>
+          <Route path='/search' element={<Search />}></Route>
         </Routes>
         <Footer></Footer>
       </div>

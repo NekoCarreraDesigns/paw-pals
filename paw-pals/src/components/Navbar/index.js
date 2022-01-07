@@ -11,8 +11,8 @@ function Navbar() {
       <a className='navbar-link-1' href='/search'>
         <i className='fas fa-search'></i>
       </a>{" "}
-      <a className='navbar-link-2' href='/settings'>
-        <i className='fas fa-cog'></i>
+      <a className='navbar-link-2' href='/cards'>
+        <i className='fas fa-heart'></i>
       </a>{" "}
       <a className='navbar-link-3' href='/adopt'>
         {" "}
