@@ -54,7 +54,7 @@ function Search() {
         <input className='age-checkbox' type='checkbox' /> 12+
       </div>
       <div>
-        <h1 className='distance-filter'>Search By Distance</h1>
+        <h1 className='distance-filter'>Distance</h1>
         <RangeSlider />
       </div>
     </div>

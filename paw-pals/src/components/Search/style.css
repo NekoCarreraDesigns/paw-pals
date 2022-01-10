@@ -33,6 +33,7 @@
   color: rgb(235, 154, 33);
   letter-spacing: 2px;
 }
+
 .breed-filter,
 .mix-breed,
 .dog-age,
@@ -41,12 +42,16 @@
   letter-spacing: 3px;
   font-size: 30px;
   color: rgb(235, 154, 33);
+  margin-top: 20px;
+  padding: 40px;
 }
 
 .breed-checkbox,
 .age-checkbox {
-  padding: 10px;
+  padding: 5px;
   margin: 5px;
+  height: 15px;
+  width: 15px;
 }
 
 .mixed-input {
