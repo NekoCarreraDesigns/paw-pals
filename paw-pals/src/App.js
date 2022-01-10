@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/index";
 import Card from "./components/Card/index";
 import Footer from "./components/Footer/index";
 import Search from "./components/Search/index";
+import Adopt from "./components/Adopt/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Header />}></Route>
           <Route path='/cards' element={<Card />}></Route>
           <Route path='/search' element={<Search />}></Route>
+          <Route path='/adopt' element={<Adopt />}></Route>
         </Routes>
         <Footer></Footer>
       </div>

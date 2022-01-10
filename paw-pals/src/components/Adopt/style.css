@@ -1,0 +1,46 @@
+.adoption-header {
+  font-family: "Patrick Hand", cursive;
+  font-size: 60px;
+  font-weight: 400px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.adoption-paragraph {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.animal-shelter-links-header {
+  font-size: 60px;
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+.animal-shelter-list {
+  margin: 30px;
+  font-size: 30px;
+  font-family: "Patrick Hand", cursive;
+  padding: 30px;
+  letter-spacing: 2px;
+}
+
+.animal-shelter-list-paragraph {
+  font-size: 30px;
+  color: rgb(235, 153, 23);
+}
+
+.animal-shelter-list-item,
+.animal-shelter-link {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.animal-shelter-link {
+  color: rgb(255, 251, 230);
+  margin-bottom: 20px;
+}
+
+.animal-shelter-link:hover {
+  color: rgb(235, 60, 60);
+}
