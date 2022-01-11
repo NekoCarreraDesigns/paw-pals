@@ -5,6 +5,7 @@ import Card from "./components/Card/index";
 import Footer from "./components/Footer/index";
 import Search from "./components/Search/index";
 import Adopt from "./components/Adopt/index";
+import DogParks from "./components/DogParks/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/cards' element={<Card />}></Route>
           <Route path='/search' element={<Search />}></Route>
           <Route path='/adopt' element={<Adopt />}></Route>
+          <Route path='/dog-parks' element={<DogParks />}></Route>
         </Routes>
         <Footer></Footer>
       </div>

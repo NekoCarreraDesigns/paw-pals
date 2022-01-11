@@ -1,0 +1,27 @@
+.dog-parks-header {
+  font-family: "Patrick Hand", cursive;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.dog-parks-paragraph {
+  font-size: 30px;
+}
+
+.dog-park-list {
+  margin: 15px;
+  font-size: 30px;
+}
+
+.dog-park-list-item-line {
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 2px;
+}
+
+.dog-park-name {
+  color: rgb(235, 151, 21);
+  text-decoration: underline;
+  text-decoration-color: rgb(235, 151, 21);
+}
