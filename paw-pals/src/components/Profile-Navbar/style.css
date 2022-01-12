@@ -1,0 +1,25 @@
+.profile-navbar {
+  padding: 20px;
+}
+
+.profile-navbar-header {
+  font-family: "Patrick Hand", cursive;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  color: rgb(235, 151, 21);
+}
+
+.profile-navbar-link {
+  font-size: 40px;
+  color: rgb(235, 255, 255);
+  margin: 10px;
+}
+
+.fa-paw {
+  color: rgb(135, 22, 22);
+}
+
+.fa-users {
+  color: rgb(11, 234, 3);
+}

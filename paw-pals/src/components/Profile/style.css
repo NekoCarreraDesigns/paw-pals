@@ -8,12 +8,17 @@
 
 .user-name-header {
   font-family: "Patrick Hand", cursive;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 2px;
+  color: rgb(235, 151, 21);
 }
 
 .user-paragraph {
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Patrick Hand", cursive;
   letter-spacing: 2px;
+}
+
+.user-category {
+  color: rgb(235, 151, 21);
 }
