@@ -8,6 +8,7 @@ import Adopt from "./components/Adopt/index";
 import DogParks from "./components/DogParks/index";
 import Profile from "./components/Profile/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import UserViews from "./components/User-Views/index";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/adopt' element={<Adopt />}></Route>
           <Route path='/dog-parks' element={<DogParks />}></Route>
           <Route path='/profile' element={<Profile />}></Route>
+          <Route path='/user-view' element={<UserViews />}></Route>
         </Routes>
         <Footer></Footer>
       </div>

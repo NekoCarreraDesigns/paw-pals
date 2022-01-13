@@ -1,0 +1,35 @@
+.user-row,
+.user-row-1,
+.user-row-2 {
+  display: flex;
+}
+
+.user-column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.user-view-header {
+  font-size: 60px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+.user-name {
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 1px;
+}
+
+.user-view-paragraph {
+  font-size: 24px;
+}
+
+.user-link:hover {
+  background-color: rgb(235, 151, 21);
+}
+
+.user-link:focus {
+  border-style: double;
+}
