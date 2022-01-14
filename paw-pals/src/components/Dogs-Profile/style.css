@@ -1,0 +1,32 @@
+.dog-row,
+.dog-row-1,
+.dog-row-2 {
+  display: flex;
+}
+
+.dog-column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.dog-view-header {
+  font-size: 60px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+.dog-name {
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 2px;
+  color: rgb(255, 111, 21);
+}
+
+.dog-view-paragraph {
+  font-size: 24px;
+}
+
+.dog-link:hover {
+  background-color: rgb(255, 36, 155);
+}

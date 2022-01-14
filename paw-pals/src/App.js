@@ -9,6 +9,7 @@ import DogParks from "./components/DogParks/index";
 import Profile from "./components/Profile/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserViews from "./components/User-Views/index";
+import DogsViews from "./components/Dogs-Profile/index";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/dog-parks' element={<DogParks />}></Route>
           <Route path='/profile' element={<Profile />}></Route>
           <Route path='/user-view' element={<UserViews />}></Route>
+          <Route path='/dogs-view' element={<DogsViews />}></Route>
         </Routes>
         <Footer></Footer>
       </div>
