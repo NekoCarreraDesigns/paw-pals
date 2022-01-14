@@ -10,6 +10,7 @@ import Profile from "./components/Profile/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserViews from "./components/User-Views/index";
 import DogsViews from "./components/Dogs-Profile/index";
+import Login from "./components/Log-in/index";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/profile' element={<Profile />}></Route>
           <Route path='/user-view' element={<UserViews />}></Route>
           <Route path='/dogs-view' element={<DogsViews />}></Route>
+          <Route path='/log-in' element={<Login />}></Route>
         </Routes>
         <Footer></Footer>
       </div>

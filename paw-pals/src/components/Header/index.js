@@ -28,9 +28,9 @@ function Header() {
         authorities, as well as our safety team. Remember to have fun and stay
         safe! Thanks for using Puppy Pals!
       </p>
-      <button className='start-button' href='/profile'>
-        Get Started!
-      </button>
+      <a href='/log-in'>
+        <button className='start-button'>Get Started!</button>
+      </a>
     </div>
   );
 }

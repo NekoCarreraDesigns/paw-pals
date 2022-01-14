@@ -1,0 +1,35 @@
+.log-in-card-outer {
+  box-shadow: 2px 2px 2px 2px;
+  background-color: rgb(241, 111, 11);
+  width: 800px;
+  margin-left: 400px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.log-in-card-inner {
+  background-color: rgb(3, 58, 200);
+}
+
+.user-log-in-input-firstName,
+.user-log-in-input-lastName,
+.user-log-in-input-password {
+  border-radius: 10px;
+  height: 40px;
+  width: 400px;
+  margin: 10px;
+}
+
+.log-in-submit-button {
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0;
+  color: white;
+  background-color: blue;
+}
+
+.register-link {
+  color: rgb(255, 255, 251);
+  padding: 10px;
+}
