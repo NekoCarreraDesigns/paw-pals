@@ -11,7 +11,7 @@ function LogoutMessage() {
           </h1>
           <p className='log-out-message-paragraph'>
             We're sad to see you go, however we are happy that you chose to use
-            puppy pals, thanks for your support! Remember to have fun and stay
+            Puppy Pals, thanks for your support! Remember to have fun and stay
             safe! Come back soon!
           </p>
         </div>
