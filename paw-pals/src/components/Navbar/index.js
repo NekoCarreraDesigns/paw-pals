@@ -26,6 +26,9 @@ function Navbar() {
       <a className='navbar-link-5' href='/profile'>
         <i className='fas fa-user'></i>
       </a>
+      <a className='navbar-link-6' href='/log-out'>
+        <i className='fas fa-desktop'></i>
+      </a>
     </div>
   );
 }
