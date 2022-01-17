@@ -26,6 +26,7 @@ function Login() {
           />
           <br />
           <button className='log-in-submit-button'>Submit</button>
+          <br />
           <a className='register-link' href='/register'>
             <h2 className='log-in-header-1'>New here? Please sign up!</h2>
           </a>

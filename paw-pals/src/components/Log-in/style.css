@@ -33,3 +33,11 @@
   color: rgb(255, 255, 251);
   padding: 10px;
 }
+
+.register-link:focus {
+  display: none;
+}
+
+.register-link:hover {
+  color: rgb(235, 151, 21);
+}
