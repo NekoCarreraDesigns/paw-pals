@@ -11,6 +11,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserViews from "./components/User-Views/index";
 import DogsViews from "./components/Dogs-Profile/index";
 import Login from "./components/Log-in/index";
+import Register from "./components/Register/index";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/user-view' element={<UserViews />}></Route>
           <Route path='/dogs-view' element={<DogsViews />}></Route>
           <Route path='/log-in' element={<Login />}></Route>
+          <Route path='/register' element={<Register />}></Route>
         </Routes>
         <Footer></Footer>
       </div>
