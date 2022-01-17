@@ -13,6 +13,7 @@ import DogsViews from "./components/Dogs-Profile/index";
 import Login from "./components/Log-in/index";
 import Logout from "./components/Log-out/index";
 import Register from "./components/Register/index";
+import LogoutMessage from "./components/Log-out-message/index";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path='/dogs-view' element={<DogsViews />}></Route>
           <Route path='/log-in' element={<Login />}></Route>
           <Route path='log-out' element={<Logout />}></Route>
+          <Route path='log-out-message' element={<LogoutMessage />}></Route>
           <Route path='/register' element={<Register />}></Route>
         </Routes>
         <Footer></Footer>

@@ -1,0 +1,14 @@
+.outer-log-out-message-card {
+  box-shadow: 2px 2px 2px 2px;
+  background-color: rgb(241, 111, 11);
+  width: 800px;
+  margin-left: 400px;
+  margin-top: 200px;
+  margin-bottom: 500px;
+}
+
+.log-out-message-paragraph {
+  font-size: 24px;
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 2px;
+}

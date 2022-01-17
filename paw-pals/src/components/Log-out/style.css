@@ -18,3 +18,7 @@
 .fa-sign-out-alt {
   color: rgb(200, 12, 12);
 }
+
+:focus {
+  display: none;
+}
