@@ -14,6 +14,7 @@ import Login from "./components/Log-in/index";
 import Logout from "./components/Log-out/index";
 import Register from "./components/Register/index";
 import LogoutMessage from "./components/Log-out-message/index";
+import ProfileGenerator from "./components/Profile-Generator/index";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           <Route path='/user-view' element={<UserViews />}></Route>
           <Route path='/dogs-view' element={<DogsViews />}></Route>
           <Route path='/log-in' element={<Login />}></Route>
+          <Route
+            path='/profile-generator'
+            element={<ProfileGenerator />}></Route>
           <Route path='log-out' element={<Logout />}></Route>
           <Route path='log-out-message' element={<LogoutMessage />}></Route>
           <Route path='/register' element={<Register />}></Route>
