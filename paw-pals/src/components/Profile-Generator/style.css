@@ -1,0 +1,42 @@
+.user-profile-generator-paragraph {
+  font-size: 30px;
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.step-header {
+  font-family: "Patrick Hand", cursive;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: rgb(235, 151, 21);
+}
+
+.user-profile-generator-text {
+  width: 600px;
+  height: 200px;
+}
+
+.user-profile-generator-dog-name,
+.user-profile-generator-dog-status,
+.user-profile-generator-dog-likes,
+.user-profile-generator-dog-dislikes,
+.user-profile-generator-dog-personality {
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.user-profile-generator-button {
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  background-color: rgb(3, 58, 200);
+}
+
+.user-profile-generator-button:hover {
+  background-color: rgb(235, 151, 21);
+}

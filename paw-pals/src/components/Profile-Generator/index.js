@@ -37,7 +37,7 @@ function ProfileGenerator() {
         <input
           placeholder="What is your dog's name"
           type='text'
-          className='user-profile-generator-dog-name?'
+          className='user-profile-generator-dog-name'
         />
         <br />
         <input
@@ -64,6 +64,9 @@ function ProfileGenerator() {
           className='user-profile-generator-dog-personality'
         />
         <br />
+        <button type='submit' className='user-profile-generator-button'>
+          Submit
+        </button>
       </div>
     </div>
   );
