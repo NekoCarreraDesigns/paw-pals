@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 
 function UserViews() {
+  const [userState, setUserState] = useState({
+    name: "",
+    image: "",
+  });
+
   return (
     <>
       <h1 className='user-view-header'>View Users</h1>
